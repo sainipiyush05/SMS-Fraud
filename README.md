@@ -16,6 +16,3 @@ SMS Fraud Detection
 
 7.	Deployment: The fraud detection system can be integrated into existing SMS services or applications to provide real-time alerts for potentially fraudulent messages.
 
-8.	Usage Instructions: Step-by-step guidance on how to run the detection model and interpret results, along with any necessary dependencies or installation instructions.
-
-9.	Future Work: Suggestions for improving the model, such as exploring deep learning techniques or incorporating more diverse datasets.
