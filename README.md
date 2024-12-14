@@ -1,18 +1,57 @@
 # SMS-Fraud
 
-SMS Fraud Detection
+# SMS Fraud Detection
 
-1.	Project Overview: This project aims to identify fraudulent SMS messages using machine learning techniques, reducing the risk of financial loss and improving user security.
+This project implements a machine learning-based system to detect and classify SMS messages as normal, hate speech, or offensive. The model uses various text processing techniques and classification algorithms to achieve high accuracy and precision.
 
-2.	Dataset: The model is trained on a labeled dataset containing both legitimate and fraudulent SMS messages, allowing it to learn patterns indicative of fraud.
+Project Overview
 
-3.	Preprocessing: Text preprocessing steps include tokenization, removal of stop words, and stemming/lemmatization to prepare the data for analysis.
+The dataset consists of labeled SMS messages categorized into the following classes:
 
-4.	Feature Extraction: Techniques such as TF-IDF (Term Frequency-Inverse Document Frequency) are used to convert SMS text into numerical features for model training.
+Normal: Regular, non-offensive messages.
 
-5.	Model Selection: Several machine learning algorithms (e.g., Logistic Regression, Random Forest, SVM) are implemented to compare their effectiveness in detecting fraudulent messages.
+Hate Speech: Messages containing hate-inducing content.
 
-6.	Performance Metrics: The model's performance is evaluated using metrics such as accuracy, precision, recall, and F1 score to ensure reliability in detection.
+Offensive: Messages with offensive language.
 
-7.	Deployment: The fraud detection system can be integrated into existing SMS services or applications to provide real-time alerts for potentially fraudulent messages.
+The project involves:
 
+Data Preprocessing: Cleaning and transforming text data.
+
+Feature Engineering: Extracting numerical features from text using techniques like TF-IDF and CountVectorizer.
+
+Model Building: Using machine learning models like Naive Bayes, SVM, Random Forest, and others.
+
+Evaluation: Comparing models using accuracy, precision, and confusion matrices.
+Features
+
+Text Preprocessing:
+
+Lowercasing
+Tokenization
+Stopword Removal
+Stemming using PorterStemmer
+
+Visualization:
+
+Word Clouds for each class.
+Histograms and Pair Plots to understand feature distributions.
+
+Classification Algorithms:
+
+Naive Bayes (Gaussian, Multinomial, Bernoulli)
+
+Support Vector Machines (SVM)
+
+Random Forest
+
+Gradient Boosting
+
+Voting and Stacking Classifiers for ensemble learning.
+
+$ Performance Metrics:
+
+Accuracy
+
+Precision
+Confusion Matrices
